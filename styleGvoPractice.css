@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(-30deg, #192444, #144474, #05a0c7, #00a6d2);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: white;
+}
+/* animation for background */
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* sytling for the toggle card area */
+.center {
+    margin: auto;
+    width: 100%;
+}
+header{
+    margin-top:84px;
+}
+div.payStyleGVO{
+    color:white;
+    background: linear-gradient(-30deg,#00a6d2,#05a0c7,#144474#192444);
+    background-size: 400% 400%;
+    animation: gradientBG 32s ease infinite;
+    color: white;
+}
+/* buttons */
+.header-button {
+    cursor: pointer;
+    background-color: #086cbd;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    border-radius: 600px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    outline: 0;
+    border: solid #086cbd;
+}
+.stopwatch {
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px;
+}
+.stopwatch span {
+    font-weight: bold;
+    display: block;
+    font-size: 7rem;
+    text-align: center;
+    
+}
+.stopwatch a {
+    padding-right: 5px;
+    text-decoration: none;
+}
